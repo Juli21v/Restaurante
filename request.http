@@ -1,0 +1,10 @@
+###
+POST http://localhost:9000/api/products HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre":"Gelatina de cereza",
+    "Descripcion":"Delicioso postre, de gelatina sabor cereza, glaseado como cobertura y decorado con una cereza en su parte superior.",
+    "Precio":15000,
+    "Categoria_videojuego":"Splatoon"
+}
